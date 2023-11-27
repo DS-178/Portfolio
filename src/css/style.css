@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 100vw;
+  height: 100dvh;
+  background: linear-gradient(0deg, #000 9.15%, rgba(0, 0, 0, 0) 92.97%), radial-gradient(133.93% 72.86% at 92.26% 5.03%, rgba(151, 157, 172, 0.2) 27.67%, rgba(0, 0, 0, 0) 100%), url(./Assets/img/Contour.png), #001233;
+}
+
+.nav-logo {
+  display: flex;
+  color: white;
+  text-transform: capitalize;
+  font-size: 3vh;
+  gap: 0.66vw;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.nav-logo:hover {
+  color: white;
+}
+
+.nav-logo i {
+  font-size: 5vh;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  font-size: 1.2vw;
+}
+
+.main-nav-link {
+  color: white;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  font-weight: 600;
+}
+
+.main-nav-link:hover {
+  color: #0466C8;
+  border-bottom: #0466C8 solid 2px;
+}/*# sourceMappingURL=style.css.map */
