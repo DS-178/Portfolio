@@ -74,7 +74,7 @@ gradient {
   filter: drop-shadow(-1px 3px 10px #0202027a);
 }
 
-.title-container {
+.title-container {  
   text-align: center;
   text-transform: uppercase;
 }
@@ -92,6 +92,7 @@ gradient {
 }
 
 .hero-subtitle {
+  margin-top: -1vh;
   color: white;
     font-size: 4vh;
     letter-spacing: 0.3vw;
