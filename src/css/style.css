@@ -7,8 +7,8 @@ body {
           user-select: none;
 }
 
-gradient {
-  background: linear-gradient(270deg, #0466c8 1.76%, #3353a3 40.59%);
+.gradientText {
+  background: linear-gradient(270deg, #0466c8 1.76%, #496ecc 40.59%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -28,6 +28,7 @@ gradient {
   gap: 0.66vw;
   font-family: "Roboto";
   font-weight: 700;
+  letter-spacing: 0.1vw;
 }
 
 .nav-logo:hover {
@@ -77,8 +78,6 @@ gradient {
   font-size: 12vh;
   letter-spacing: -0.2vw;
   font-family: "Roboto";
-  display: flex;
-  flex-direction: column;
   font-weight: 700;
 }
 
