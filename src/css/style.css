@@ -2,12 +2,22 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+gradient {
+  background: linear-gradient(270deg, #0466c8 1.76%, #979dac 40.59%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .content {
   width: 100vw;
   height: 100dvh;
-  background: linear-gradient(0deg, #000 9.15%, rgba(0, 0, 0, 0) 92.97%), radial-gradient(133.93% 72.86% at 92.26% 5.03%, rgba(151, 157, 172, 0.2) 27.67%, rgba(0, 0, 0, 0) 100%), url(./Assets/img/Contour.png), #001233;
+  background: linear-gradient(0deg, #000 9.15%, rgba(0, 0, 0, 0) 92.97%), radial-gradient(133.93% 72.86% at 92.26% 5.03%, rgba(151, 157, 172, 0.2) 27.67%, rgba(0, 0, 0, 0) 100%), url(../Assets/img/Contour.png), #001233;
 }
 
 .nav-logo {
@@ -36,13 +46,49 @@ body {
 }
 
 .main-nav-link {
+  font-family: "Roboto";
   color: white;
   text-transform: uppercase;
   border: 2px solid transparent;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .main-nav-link:hover {
-  color: #0466C8;
-  border-bottom: #0466C8 solid 2px;
+  color: #0466c8;
+}
+
+.hero-content {
+  display: grid;
+  place-items: center;
+  padding: 1vh;
+  height: 80%;
+  grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+}
+
+.hero-title {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 10vh;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-subtitle {
+  font-size: 4vh;
+}
+
+.hero-subtitle:nth-child(8) {
+  color: #0466c8;
+}
+
+.hero-img {
+  display: grid;
+  place-items: center;
+}
+
+.hero-img img {
+  width: 37vw;
+  filter: grayscale(100%);
 }/*# sourceMappingURL=style.css.map */
